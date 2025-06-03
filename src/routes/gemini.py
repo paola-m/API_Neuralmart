@@ -13,3 +13,4 @@ async def recomendar(data: RecomendacionInput):
 
     respuesta = generar_respuesta_con_contexto(data.producto, user_id=data.user_id)
     return {"respuesta": respuesta}
+
